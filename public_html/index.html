@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Christina Colley</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="mystyle.css">
+
+<style>
+.a{
+  color:hotpink
+}
+.oval{
+  height: 50px;
+  width: 100px;
+  background-color: mistyrose;
+  border-radius: 50%;
+}
+.box{ 
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+  transform: translate(0%, 0%);
+}
+
+.red
+{ 
+  background:mistyrose; 
+} 
+
+.round 
+{
+  border-radius: 50%;
+}
+
+.split 
+{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }
+
+.left 
+{
+  left: 0;
+  background-color: rgb(185, 222, 196) ;
+  }
+  
+
+.right
+{
+  right: 0;
+}
+
+.centered 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75%, -50%);
+}
+.t
+{
+  transform: translate(-50%, -98%);
+}
+.dark-mode-button
+{
+  height:50px;
+  width:100px;
+  background-color:darkseagreen  
+}
+.dark-mode
+{
+  background-color: black;
+  color:green;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkseagreen;
+}
+  
+li{
+  float: left;
+}
+  
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+
+li a:hover 
+{
+  background-color: #111;
+}
+
+body
+{
+  background-image: url('idk.jpeg');
+  background-size: cover;
+
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
+h2{
+  margin: 25px 50px 75px 100px;
+}
+
+  
+  </style>
+
+</head>
+
+<body>
+
+
+  <div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="qualifications.html">Qualifications</a></li>
+      <li><a href="me.html">Hobbies</a></li>
+      <li><a href="about.html">Portfolio</a></li>
+      <li>
+          <script src="toggle.js"> </script>
+          <button class="dark-mode-button" aria-label="dark mode" onclick="myF()">Dark Mode</button>
+          </li>
+    </ul>
+   
+    </div>
+
+    <div style="position:absolute; left:100px; top:300px;color:white; font-size:40px">
+      <h1><b>Hi, I'm Christina.</b></h1>
+    </div>
+    <div style="position:absolute; left:820px; top:400px;color:salmon; font-size:medium; font-size:13px">
+      <h2><b>I'm in my third year <br> of the undergraduate <br> computer science <br> program at <br> Texas A&M University.<br> Read a little bit <br> about me! </b> </h2>
+    </div>
+
+  
+</body>
+</html>
